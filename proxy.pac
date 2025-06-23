@@ -5,11 +5,11 @@ function FindProxyForURL(url, host) {
     var blacklist = [
         "missav", "xxx", "porn", "slot", "dewa888", "judi", "xnxx", "ads", "youareanidiot",
         "bet", "ad", "doubleclick", "mouseflow", "bugsnag", "hotjar", "luckyorange", "adcolony",
-        "amazonaws", "media.net", "metrics", "duckduckgo", "darkweb", "israel", "bokep"
+        "amazonaws", "media.net", "metrics", "duckduckgo", "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88", "888", "777", "ambil4d"
     ];
 
     var whitelist = [
-        "adsense", "adblock"
+        "adsense", "adblock", "googleadservices"
     ];
 
     // Cek whitelist dulu
