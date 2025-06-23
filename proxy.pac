@@ -3,8 +3,8 @@ function FindProxyForURL(url, host) {
     url  = url.toLowerCase();
 
     var blacklist = [
-        "missav", "xxx", "porn", "slot", "dewa888", "judi", "xnxx", "ads", "youareanidiot",
-        "bet", "ad", "doubleclick", "mouseflow", "bugsnag", "hotjar", "luckyorange", "adcolony",
+        "missav", "xxx", "porn", "slot", "dewa888", "judi", "xnxx", "ads", "youareanidiot","freshmarketer","yandex","hotvideo","bookmaker","csgore","bingo","sbbanner","vimax","maxwin","gacor","88","18+","7spins","naga77","agentogel","casino","
+        "bet", "ad", "doubleclick", "mouseflow", "bugsnag", "hotjar", "luckyorange", "adcolony","darkweb","2mdn","fuck","sex","hqhole","angel","xx","areabola","poker","qq","elanghoki","elangbola","kontolkuda","okebos","pussy","dick",
         "amazonaws", "media.net", "metrics", "duckduckgo", "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88", "888", "777", "ambil4d"
     ];
 
@@ -22,7 +22,7 @@ function FindProxyForURL(url, host) {
     // Cek blacklist
     for (var i = 0; i < blacklist.length; i++) {
         if (shExpMatch(host, "*" + blacklist[i] + "*") || shExpMatch(url, "*" + blacklist[i] + "*")) {
-            return "PROXY lenoproxy.vercel.app:443";
+            return "PROXY https://lenoproxy.vercel.app/blockedsite";
         }
     }
 
