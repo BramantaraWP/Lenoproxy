@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single White Proxy - Solusi Aman Internet Anda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        .btn-gradient {
+            background: linear-gradient(to right, #6366f1, #8b5cf6);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4);
+            opacity: 0.9;
+        }
+        .card-feature {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            padding: 24px;
+        }
+        .card-feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+        .header-bg {
+            background-color: #1a202c;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-bg text-white py-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-2xl font-bold text-indigo-300">Leno Proxy</a>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-br from-indigo-600 to-purple-700 text-white py-20 text-center relative overflow-hidden">
+        <br><br><br>
+        <div class="absolute inset-0 z-0 opacity-20" style="background-image: url('https://www.transparenttextures.com/patterns/cubes.png');"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-down">
+                Internet Aman, Bebas Iklan Dan Konten Negatif!
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-2xl mx-auto opacity-90 animate-fade-in-up">
+                Nikmati pengalaman internet yang bersih dan terlindungi dari situs porno, judi, dan konten berbahaya lainnya.
+            </p>
+            <a onclick="copyProxyLink()" class="btn-gradient inline-block animate-bounce-in cursor-pointer">
+                Mulai Gunakan Sekarang!
+            </a>
+        </div>
+        <br><br><br>
+    </section>
+
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Kenapa Leno Proxy?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-feature text-center">
+                    <div class="text-5xl text-indigo-500 mb-4">🛡️</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Blokir Konten Negatif</h3>
+                    <p class="text-gray-600">Otomatis cegah akses ke situs porno, judi, dan konten berbahaya lainnya. Internet jadi lebih bersih!</p>
+                </div>
+                <div class="card-feature text-center">
+                    <div class="text-5xl text-purple-500 mb-4">🔒</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Privasi Terjaga</h3>
+                    <p class="text-gray-600">Data anda aman, request internet disembunyikan. Tidak ada yang bisa melihat.</p>
+                </div>
+                <div class="card-feature text-center">
+                    <div class="text-5xl text-green-500 mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Cepat & Ringan</h3>
+                    <p class="text-gray-600">Tidak membuat internet anda lemot. Tetap ngebut tapi aman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12">Gimana Cara Pemasangannya</h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                <br>Lihat Video Di Bawah Ini
+            </p>
+        </div>
+    </section>
+
+    <section class="py-20 bg-indigo-700 text-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-6">Siap Merasakan Internet Aman?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Gabung dan mulai sekarang dengan proxy yang cepat dan aman
+            </p>
+            <a onclick="copyProxyLink()" class="btn-gradient bg-white text-indigo-700 hover:bg-gray-100 transform hover:scale-105 transition duration-300 cursor-pointer">
+                Mulai Gunakan Sekarang!
+            </a>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025, all right reserved</p>
+            <p class="mt-2">Underhand By <a href="https://singlewhiteteam.netlify.app" target="_blank" class="text-indigo-400 hover:underline">singlewhiteteam.netlify.app</a></p>
+        </div>
+    </footer>
+
+    <!-- Script Copy ke Clipboard -->
+    <script>
+    function copyProxyLink() {
+        const proxyURL = 'https://lenoproxy.vercel.app/proxy.pac';
+        navigator.clipboard.writeText(proxyURL).then(() => {
+            alert('Proxy Tersalin:\n' + proxyURL);
+        }).catch(err => {
+            alert('Gagal menyalin link!');
+        });
+    }
+    </script>
+
+</body>
+</html>
