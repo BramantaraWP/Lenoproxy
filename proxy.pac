@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     url  = url.toLowerCase();
 
     var blacklist = [
-        "missav", "xxx", "porn", "slot", "dewa888", "judi", "xnxx", "ads", "youareanidiot","freshmarketer","yandex","hotvideo","bookmaker","csgore","bingo","sbbanner","vimax","maxwin","gacor","88","18+","7spins","naga77","agentogel","casino","
+        "missav", "xxx", "porn", "slot", "dewa888", "judi", "xnxx", "ads", "youareanidiot","freshmarketer","yandex","hotvideo","bookmaker","csgore","bingo","sbbanner","vimax","maxwin","gacor","88","18+","7spins","naga77","agentogel","casino","slot","lad","domino","pg","
         "bet", "ad", "doubleclick", "mouseflow", "bugsnag", "hotjar", "luckyorange", "adcolony","darkweb","2mdn","fuck","sex","hqhole","angel","xx","areabola","poker","qq","elanghoki","elangbola","kontolkuda","okebos","pussy","dick",
         "amazonaws", "media.net", "metrics", "duckduckgo", "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88", "888", "777", "ambil4d"
     ];
