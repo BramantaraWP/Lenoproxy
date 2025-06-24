@@ -11,16 +11,7 @@ function FindProxyForURL(url, host) {
         "angel","xx","areabola","poker","qq","elanghoki","elangbola","kontolkuda",
         "okebos","pussy","dick","amazonaws", "media.net", "metrics", "duckduckgo",
         "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88",
-        "888","toto100","mapan777","coli","playgirl","ambil4d",
-
-        // tambahan dorking bahaya
-        "intitle:slot", "intitle:gacor", "intitle:toto", "inurl:deposit", "inurl:withdraw",
-        "inurl:register", "inurl:login", "intitle:dominoqq", "inurl:agenbola",
-        "inurl:cemeonline", "intitle:freebet", "inurl:jackpot", "intitle:bonus new member",
-        "inurl:livecasino", "inurl:situs-slot", "inurl:rtp-slot", "inurl:togel-online",
-        "inurl:crypto-scam", "inurl:phishing-login", "inurl:private-server",
-        "inurl:leak-database", "inurl:index-of/database", "inurl:index-of/.env",
-        "inurl:config.php", "inurl:wp-config.php","inurl:bokep"
+        "888","toto100","mapan777","coli","playgirl","ambil4d", "coli",
     ];
 
     var whitelist = [
