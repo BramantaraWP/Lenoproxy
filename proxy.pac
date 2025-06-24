@@ -22,7 +22,7 @@ function FindProxyForURL(url, host) {
     // Cek blacklist
     for (var i = 0; i < blacklist.length; i++) {
         if (shExpMatch(host, "*" + blacklist[i] + "*") || shExpMatch(url, "*" + blacklist[i] + "*")) {
-            return "PROXY https://lenoproxy.vercel.app/blockedsite";
+            return "PROXY lenoproxy.vercel.app:443";
         }
     }
 
