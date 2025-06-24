@@ -15,7 +15,7 @@ function FindProxyForURL(url, host) {
     ];
 
     var whitelist = [
-        "adsense", "adblock", "googleadservices"
+        "adsense", "adblock", "googleadservices", "*.mediafire.com"
     ];
 
     // Cek whitelist dulu
