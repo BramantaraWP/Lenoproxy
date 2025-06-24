@@ -10,8 +10,17 @@ function FindProxyForURL(url, host) {
         "hotjar", "luckyorange", "adcolony","darkweb","2mdn","fuck","sex","hqhole",
         "angel","xx","areabola","poker","qq","elanghoki","elangbola","kontolkuda",
         "okebos","pussy","dick","amazonaws", "media.net", "metrics", "duckduckgo",
-        "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88","888","toto100","darkweb", "sex","mapan777","coli","playgirl"
-        "777", "ambil4d"
+        "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88",
+        "888","toto100","mapan777","coli","playgirl","ambil4d",
+
+        // tambahan dorking bahaya
+        "intitle:slot", "intitle:gacor", "intitle:toto", "inurl:deposit", "inurl:withdraw",
+        "inurl:register", "inurl:login", "intitle:dominoqq", "inurl:agenbola",
+        "inurl:cemeonline", "intitle:freebet", "inurl:jackpot", "intitle:bonus new member",
+        "inurl:livecasino", "inurl:situs-slot", "inurl:rtp-slot", "inurl:togel-online",
+        "inurl:crypto-scam", "inurl:phishing-login", "inurl:private-server",
+        "inurl:leak-database", "inurl:index-of/database", "inurl:index-of/.env",
+        "inurl:config.php", "inurl:wp-config.php","inurl:bokep"
     ];
 
     var whitelist = [
@@ -28,7 +37,7 @@ function FindProxyForURL(url, host) {
     // Cek blacklist
     for (var i = 0; i < blacklist.length; i++) {
         if (shExpMatch(host, "*" + blacklist[i] + "*") || shExpMatch(url, "*" + blacklist[i] + "*")) {
-            return "PROXY 127.0.0.1:8080"; // atau ganti IP proxy lu kalau mau redirect
+            return "PROXY 127.0.0.1:8080";
         }
     }
 
