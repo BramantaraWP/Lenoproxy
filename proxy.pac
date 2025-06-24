@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
         "hotjar", "luckyorange", "adcolony","darkweb","2mdn","fuck","sex","hqhole",
         "angel","xx","areabola","poker","qq","elanghoki","elangbola","kontolkuda",
         "okebos","pussy","dick","amazonaws", "media.net", "metrics", "duckduckgo",
-        "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88","888",
+        "darkweb", "israel", "bokep", "bf", "adult", "gun", "weapon", "dora88","888","toto100","darkweb", "sex","mapan777","coli","playgirl"
         "777", "ambil4d"
     ];
 
